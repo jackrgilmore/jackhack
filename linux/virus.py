@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import os
 from os import remove
 from sys import argv
@@ -7,8 +9,7 @@ extension = str(".txt")
 name = ("spam")
 
 for i in range(100):
-    path = expanduser("~" + "/Desktop")
-    file = open(join(path, name + str(i+1) + extension), "w")
+    file = open(name + str(i+1) + extension, "w")
     file.write("YOU'VE BEEN HACKED!")
     file.close()
 
