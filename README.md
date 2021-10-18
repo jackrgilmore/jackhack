@@ -1,5 +1,5 @@
 # jackhack
-Prank Project! An annoying little script to use when your friend left their computer open. This program creates 100 spam.txt files in the desktop of the computer it is run on. It's really easy to use! Just download to the computer you want it run on and open the executable. 
+Prank Project! An annoying little script to use when your friend left their computer open. This program creates 100 spam.txt files in the desktop of the computer it runs on. It's really easy to use! Just download to the computer you want it run on and open the executable. 
 
 **Operating System**
 Currently, this application is only available on mac_OS. 
