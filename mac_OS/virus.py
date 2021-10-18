@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 
 import os
 from os import remove
@@ -9,9 +9,9 @@ extension = str(".txt")
 name = ("spam")
 
 for i in range(100):
-    file = open(name + str(i+1) + extension, "w")
+    file = open("Desktop/"+ name + str(i+1) + extension, "w")
     file.write("YOU'VE BEEN HACKED!")
     file.close()
 
 #comment out deleting self
-#remove(argv[0])
+remove(argv[0])
