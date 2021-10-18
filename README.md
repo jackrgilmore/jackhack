@@ -5,7 +5,7 @@ PRANK PROJECT: An annoying little script to use when your friend leaves their co
 Currently, this application is only available on mac_OS. 
 
 **Pro Tip** <br>
-If you receive the apple notification "from unidentified developer", right click on the executable and click open. Should run normally.
+If you receive the apple notification "from unidentified developer", right click on the executable and click open. It should then run normally.
 
 **Upcoming Changes**
 - cross-compatibility (most likely will be made available for linux first, then windows).
