@@ -14,3 +14,6 @@ for i in range (5):
     file.write("YOU'VE BEEN HACKED!")
 
 remove[argv(0)]
+
+
+#note .zfill gives 00 padding to the filename.
