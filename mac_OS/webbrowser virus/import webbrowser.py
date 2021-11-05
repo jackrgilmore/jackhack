@@ -1,13 +1,16 @@
 #!/usr/bin/env python
-import os
+
+#functionality for self-deletion
+from os import remove
+from sys import argv
+
 import webbrowser as wb
-name="hack"
+name="HACKED!"
 extension=".txt"
 
 for i in range (5):
     wb.open("https://jackrgilmore.github.io/jackhack/")
-    file = open("Desktop/"+ name + str(i+1) + extension, "w")
+    file = open("Desktop/"+ str(0+i+1) + name + extension, "w")
     file.write("YOU'VE BEEN HACKED!")
-    file.close()
 
-os.remove[os.argv(0)]
+remove[argv(0)]
