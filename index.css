@@ -1,4 +1,7 @@
-
+body {
+    background: #1d1d1d;
+    color: white;
+}
 
 .container {
     display: flex;
@@ -10,4 +13,5 @@
 .title {
     font-size: 100px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.678);
 }
